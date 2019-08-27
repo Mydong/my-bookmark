@@ -12,10 +12,10 @@ app.config(function($stateProvider, $urlRouterProvider, $httpProvider) {
             },
             controller: 'bookmarksCtr'
         })
-        .state('hot', {
-            url: '/hot',
-            templateUrl: '/views/hot.html',
-            controller: 'hotCtr'
+        .state('weixin-article', {
+            url: '/weixin-article',
+            templateUrl: '/views/weixin-article.html',
+            controller: 'weixinArticleCtr'
         })
         .state('praise', {
             url: '/praise',
@@ -107,4 +107,4 @@ console.log([
     "          不见满街漂亮妹，哪个归得程序员？",
 ].join('\n'));
 
-console.log = function(){}
+// console.log = function(){}

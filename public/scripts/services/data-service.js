@@ -25,7 +25,7 @@ app.factory('dataService', [function() {
             uiSref: 'note',
             title: '备忘'
         }, {
-            uiSref: 'hot',
+            uiSref: 'weixin-article',
             title: '热门'
         }, {
             uiSref: 'settings',
@@ -41,7 +41,7 @@ app.factory('dataService', [function() {
             uiSref: 'login',
             title: '登录'
         }, {
-            uiSref: 'hot',
+            uiSref: 'weixin-article',
             title: '热门'
         }],
         animationIndex: 0,
@@ -89,6 +89,7 @@ app.factory('dataService', [function() {
             'D': '在有关书签页面，用作删除书签',
             'I': '在有关书签页面，用作查看书签详情',
             'R': '在热门收藏界面，已用作随机查看热门收藏',
+            'S': '在任意界面，已用做快速进入搜索页面',
             'INSERT': '全局页面，已用做添加书签',
             'ESC': '全局页面，已用做退出弹窗',
             ',': '跳转到分类定制点击次数',
